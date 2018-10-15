@@ -1,0 +1,32 @@
+{
+  "name": "cssalchemy",
+  "version": "1.0.0",
+  "description": "atomic css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "postcss": "postcss -o dist/main.css src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrunswig/cssalchemy.git"
+  },
+  "author": "Scott Brunswig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbrunswig/cssalchemy/issues"
+  },
+  "homepage": "https://github.com/sbrunswig/cssalchemy#readme",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4"
+  }
+}

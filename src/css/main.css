@@ -1,0 +1,61 @@
+/* ------------------------------------ *\
+    #MAIN
+\* ------------------------------------ */
+
+/**
+ * Master stylesheet for FitchConnect.
+ *
+ * Author: Scott Brunswig
+ */
+
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * defaults...............Default variables
+ *
+ * GENERIC
+ * Reset................Reset margin and padding on some elements
+ *
+ * ELEMENTS
+ * Button...............BUTTON element
+ * Html.................HTML element
+ * Input................INPUT element
+ * Link.................A element
+ * SVG..................SVG element
+ *
+ * PROPERTIES
+ * Background...........Background properties
+ * Border...............Border properties
+ * Box..................Box properties
+ * Flex.................Flex properties
+ * Font.................Font properites
+ * List.................List properites
+ * Others...............Other properties
+ * Spacing..............Margin and padding properties
+ * Text.................Text properties
+ * Visual...............Visual formatting properties
+ */
+
+
+/** #SETTINGS */
+
+
+/** #GENERIC */
+
+
+/** #ELEMENTS */
+
+
+
+/** #PROPERTIES */
+@import 'imports/background.css';
+@import 'imports/border.css';
+@import 'imports/box.css';
+@import 'imports/font.css';
+@import 'imports/list.css';
+@import 'imports/others.css';
+@import 'imports/spacing.css';
+@import 'imports/text.css';
+@import 'imports/visual.css';

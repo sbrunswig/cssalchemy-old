@@ -1,0 +1,44 @@
+/* ------------------------------------ *\
+    #BOX
+\* ------------------------------------ */
+
+/**
+ * Box properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+ * Author:       Scott Brunswig
+*/
+
+
+/**
+ * Height
+ *
+ * Naming rule:    h-[value](px|v)
+ * Reference:      https://developer.mozilla.org/en-US/docs/Web/CSS/height
+ */
+
+ /* pixel widths 1-1000 every 3 pix */
+ @for $i from 0 to 1000 by 3 {
+  .h-$(i)px { height: $(i)px; }
+} 
+.h-100v    { height: 100vh; }
+.h-1\/1    { height: 100%; }
+
+
+/**
+ * Width
+ *
+ * Naming rule:    w-[fraction]%
+ * Reference:      https://developer.mozilla.org/en-US/docs/Web/CSS/width
+ */
+
+ /* pixel widths 1-1000 by 3 */
+@for $i from 0 to 1000 by 3 {
+    .w-$(i)px { width: $(i)px; }
+}
+
+/* percent widths 1-100 */
+@for $i from 1 to 99 {
+  .w-$(i)\/100 { width: $(i)%; }
+}
+.w-1\/1    { width: 100%; }

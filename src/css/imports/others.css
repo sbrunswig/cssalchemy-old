@@ -1,0 +1,27 @@
+/* ------------------------------------ *\
+    #OTHERS
+\* ------------------------------------ */
+
+/**
+ * Other formatting properties
+ *
+ * Reference:    
+ * Author:       Scott Brunswig
+ */
+
+ /**
+ * Align-Content
+ *
+ * Naming rule:
+ * Reference:
+ */
+.ac-b     { align-content: baseline; }
+.ac-c     { align-content: center; }
+.ac-s     { align-content: start; }
+.ac-e     { align-content: end; }
+.ac-fs    { align-content: flex-start; }
+.ac-fe    { align-content: flex-end; }
+.ac-sb    { align-content: space-between; }
+.ac-sa    { align-content: space-around; }
+.ac-se    { align-content: space-evenly; }
+.ac-st    { align-content: stretch; }

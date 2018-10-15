@@ -1,0 +1,51 @@
+/* ------------------------------------ *\
+    #VISUAL
+\* ------------------------------------ */
+
+/**
+ * Visual formatting properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Visual_formatting_model
+ * Author:       Scott Brunswig
+ */
+
+ /**
+ * Position
+ *
+ * Naming rule:
+ * Reference:
+ */
+ .pos-a    { position: absolute; }
+ .pos-f    { position: fixed; }
+ .pos-r    { position: relative; }
+ .pos-s    { position: static; }
+
+/**
+ * Display
+ *
+ * Naming rule:
+ * Reference:
+ */
+ .d-b     { display: block; }
+ .d-f     { display: flex; }
+ .d-if    { display: inline-flex; }
+ .d-i     { display: inline; }
+ .d-ib    { display: inline-block; }
+ .d-tb    { display: table; }
+
+ /**
+  * Visibility
+  *
+  * Naming rule:
+  * Reference:
+  */
+  .d-c    { visibility: collapse; }
+  .d-h    { visibility: hidden; }
+  .d-v    { visibility: visible; }
+
+ /**
+  * Zoom
+  *
+  * Naming rule:
+  * Reference:
+  */
