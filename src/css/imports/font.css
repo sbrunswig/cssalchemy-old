@@ -1,1 +1,15 @@
+/* ------------------------------------ *\
+	#FONTS
+\* ------------------------------------ */
 
+/**
+ * Margin and padding properties
+
+ * Reference:       https://developer.mozilla.org/en-US/docs/Web/CSS/fonts
+ * Author:          Scott Brunswig
+*/
+
+.fs-i             { font-style: italic; }
+.fw-700           { font-weight: 700; }
+.fz-              { font-size: var(--font-unit-small); }
+.fz\+             { font-size: var(--font-unit-medium); }

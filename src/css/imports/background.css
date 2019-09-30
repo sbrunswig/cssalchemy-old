@@ -1,0 +1,62 @@
+/* ------------------------------------ *\
+	#BACKGROUND
+\* ------------------------------------ */
+
+/**
+ * Background properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/CSS/background
+ */
+
+ .bgc-amber100         { background-color: var(--color-amber-100); }
+ .bgc-blue100          { background-color: var(--color-blue-100); }
+ .bgc-bluegray100      { background-color: var(--color-blue-gray-100); }
+ .bgc-brown100         { background-color: var(--color-brown-100); }
+ .bgc-brown300         { background-color: var(--color-brown-300); }
+ .bgc-brown500         { background-color: var(--color-brown-500); }
+ .bgc-brown900         { background-color: var(--color-brown-900); }
+ .bgc-cyan100          { background-color: var(--color-cyan-100); }
+ .bgc-deeporange100    { background-color: var(--color-deep-orange-100); }
+ .bgc-deeporange900    { background-color: var(--color-deep-orange-900); }
+ .bgc-deeppurple400    { background-color: var(--color-deep-purple-400); }
+ .bgc-deeppurple900    { background-color: var(--color-deep-purple-900); }
+ .bgc-indigo100        { background-color: var(--color-indigo-100); }
+ .bgc-lightblue100     { background-color: var(--color-light-blue-100); }
+ .bgc-lightblue200     { background-color: var(--color-light-blue-200); }
+ .bgc-lightblue300     { background-color: var(--color-light-blue-300); }
+ .bgc-lightblue600     { background-color: var(--color-light-blue-600); }
+ .bgc-lightblue700     { background-color: var(--color-light-blue-700); }
+ .bgc-lightblue900     { background-color: var(--color-light-blue-900); }
+ .bgc-lightgreen100    { background-color: var(--color-light-green-100); }
+ .bgc-lime100          { background-color: var(--color-lime-100); }
+ .bgc-lime900          { background-color: var(--color-lime-900); }
+ .bgc-gray300          { background-color: var(--color-gray-300); }
+ .bgc-gray600          { background-color: var(--color-gray-600); }
+ .bgc-gray800          { background-color: var(--color-gray-800); }
+ .bgc-green600         { background-color: var(--color-green-600); }
+ .bgc-green800         { background-color: var(--color-green-800); }
+ .bgc-green900         { background-color: var(--color-green-900); }
+ .bgc-orange100        { background-color: var(--color-orange-100); }
+ .bgc-orange600        { background-color: var(--color-orange-600); }
+ .bgc-purple100        { background-color: var(--color-purple-100); }
+ .bgc-purple300        { background-color: var(--color-purple-300); }
+ .bgc-purple400        { background-color: var(--color-purple-400); }
+ .bgc-purple700        { background-color: var(--color-purple-700); }
+ .bgc-red100           { background-color: var(--color-red-100); }
+ .bgc-red400           { background-color: var(--color-red-400); }
+ .bgc-teal100          { background-color: var(--color-teal-100); }
+ .bgc-teal500          { background-color: var(--color-teal-500); }
+ .bgc-teal900          { background-color: var(--color-teal-900); }
+ .bgc-white            { background-color: var(--color-white); }
+ .bgc-yellow100        { background-color: var(--color-yellow-100); }
+ .bgc-yellow500        { background-color: var(--color-yellow-500); }
+ .fill-gray300         { fill: var(--color-gray-300); }
+ .fill-gray500         { fill: var(--color-gray-500); }
+ .fill-gray800         { fill: var(--color-gray-800); }
+
+ /* hover states */
+ .bgc-lightblue900-hv:hover    { background-color: var(--color-light-blue-900); }
+ .bgc-dim10-hv:hover           { background-color: rgba(0,0,0,0.1); }
+ .bgc-lightblue700-hv:hover    { fill: var(--color-light-blue-700); }
+ .bgc-red400-hv:hover          { fill: var(--color-red-400); }
+

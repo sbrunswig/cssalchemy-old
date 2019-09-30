@@ -1,1 +1,12 @@
+/* ------------------------------------ *\
+    #LIST
+\* ------------------------------------ */
 
+/**
+ * List properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/CSS/list
+ * Author:       Scott Brunswig
+*/
+
+.lis-n    { list-style: none; }

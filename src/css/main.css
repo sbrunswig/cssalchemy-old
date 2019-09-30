@@ -40,7 +40,8 @@
 
 
 /** #SETTINGS */
-
+@import "imports/_colors.css";
+@import "imports/_defaults.css";
 
 /** #GENERIC */
 
@@ -53,6 +54,7 @@
 @import 'imports/background.css';
 @import 'imports/border.css';
 @import 'imports/box.css';
+@import 'imports/flex.css';
 @import 'imports/font.css';
 @import 'imports/list.css';
 @import 'imports/others.css';

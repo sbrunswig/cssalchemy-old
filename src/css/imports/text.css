@@ -1,1 +1,33 @@
 
+/* ------------------------------------ *\
+	#TEXT
+\* ------------------------------------ */
+
+/**
+ * Text properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/CSS/text
+ */
+
+.c-brown500        { color: var(--color-brown-500); }
+.c-deeporange900   { color: var(--color-deep-orange-900); }
+.c-lightblue200    { color: rgb(129,212,250); }
+.c-lightblue600    { color: var(--color-light-blue-600); }
+.c-gray300         { color: var(--color-gray-300); }
+.c-gray600         { color: var(--color-gray-600); }
+.c-gray800         { color: var(--color-gray-800); }
+.c-red400          { color: var(--color-red-400); }
+.c-white           { color: white; }
+.lh-1              { line-height: 1; }
+.lh-1\.5           { line-height: 1.5; }
+.ta-c              { text-align: center; }
+.ta-l              { text-align: left; }
+.td-n              { text-decoration: none; }
+.tt-u              { text-transform: uppercase; }
+.va-t              { vertical-align: top; }
+.whs-nw            { white-space: nowrap; }
+
+/* hover states */
+.c-lightblue600-hv:hover    { color: var(--color-light-blue-600); }
+.c-lightblue900-hv:hover    { color: var(--color-light-blue-900); }
+.c-white-hv:hover           { color: white; }

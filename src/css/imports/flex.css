@@ -1,0 +1,30 @@
+/* ------------------------------------ *\
+	#FLEX
+\* ------------------------------------ */
+
+/**
+ * Flex display properties
+ *
+ * Reference:    https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+ * Author:       Scott Brunswig
+ */
+
+ .ai-c      { align-items: center; }
+ .ai-fe     { align-items: flex-end; }
+ .ai-fs     { align-items: flex-start; }
+ .as-c      { align-self: center; }
+ .as-fe     { align-self: flex-end; }
+ .as-fs     { align-self: flex-start; }
+ .fx-1      { flex: 1; }
+ .fx-2      { flex: 2; }
+ .fxb-0     { flex-basis: 0; }
+ .fxd-c     { flex-direction: column; }
+ .fxg-1     { flex-grow: 1; }
+ .fxg-2     { flex-grow: 2; }
+ .fxsh-0    { flex-shrink: 0; }
+ .fxw-w     { flex-wrap: wrap; }
+ .jc-c      { justify-content: center; }
+ .jc-fe     { justify-content: flex-end; }
+ .jc-sb     { justify-content: space-between; }
+ .ord-1     { order: 1; }
+ .ord-2     { order: 2; }
